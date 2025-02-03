@@ -14,7 +14,7 @@ let stats = {
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
 async function makeRequest(requestNumber) {
-    const url = `https://www.google.com.au/search?q=${encodeURIComponent(SEARCH_QUERY)}`;
+    const url = `https://www.google.com./search?q=${encodeURIComponent(SEARCH_QUERY)}`;
 
     try {
         console.log(`[${requestNumber}] Sending request to Google...`);
